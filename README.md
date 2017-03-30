@@ -59,12 +59,14 @@ And enter the following command
 ```sh
 $ node geobuf-to-grid.js --png data.pbf data
 ```
-The last parameter is the output prefix
+The last parameter is the output prefix.
+
 Creates one .grid file for each numeric attribute in the geobuf. If --png is specified, creates log-scaled pngs as well (useful for debugging).
 
 # Test environment
 - Nodejs 6.9.2
 - NPM 3.10.9
 - MAC OS 10.12
+
 Converting New Orleans shapefile with 28031 features and 9 fields costs 8 min.
 

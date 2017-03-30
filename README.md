@@ -48,7 +48,6 @@ $ shp2json data.zip data.json
 ```
 
 ### 6 Convert Geojson to Geobuf using geobuf
-Firstly, we need zip the whole shapefile into one zip archives 
 ```sh
 $ json2geobuf data.json > data.pbf
 ```
